@@ -1,0 +1,16 @@
+Invisible cloak
+
+To create invisible cloak we will be using image processing techique called color detection and segmentaiton
+
+Color detection
+
+It is a technique where we can detect any color in a given range of HSV color space
+HSV is a cylindrical color space (H - Angle V - Height S - Radius)
+
+H = HUE. dominant color as percieved by an observer (0 - red, 120 - green, 240 - blue)
+S = Saturation. amount of white light mixed with HUE
+V = Value (Brightness). Lower the value, more similar to black, Higher the value more similar to the color itself
+
+Segmentaiton
+
+It is the process of labeling every pixel in an image where each pixel having the same label shares certain characterestics.
